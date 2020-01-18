@@ -1,6 +1,6 @@
 Name:           perl-File-HomeDir
 Version:        1.00
-Release:        3.1%{?dist}
+Release:        4%{?dist}
 Summary:        Find your home and other directories on any platform
 Group:          Development/Libraries
 License:        GPL+ or Artistic
@@ -62,6 +62,9 @@ make test
 %{_mandir}/man3/*.3pm*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.00-4
+- Mass rebuild 2013-12-27
+
 * Mon Jul 22 2013 Petr Šabata <contyk@redhat.com> - 1.00-3.1
 - Fix the build-time dependency list
 
